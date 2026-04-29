@@ -1,0 +1,50 @@
+/mobai wave stop
+/difficulty peaceful
+/time set day
+/time set night
+/difficulty normal
+/mobai wave start 1
+/difficulty normal
+/mobai wave start 1
+/mobai wave stop
+/mobai wave start 1
+/mobai wave start 2
+/time set noon
+/mobai wave stop
+/mobai wave start 5
+/mobai wave stop
+/mobai wave start 1
+/time set day
+/time set night
+/mobai wave start 1
+/mobai wave next
+/mobai wave series 1 2
+/time set night
+/mobai wave info
+/mobai wave info 1
+/mobai wave series-status
+/mobai wave stop
+/mobai wave series 1 2
+/time set night
+/mobai wave series 1 2
+/mobai wave series 4 5
+/effect give @p minecraft:strength infinite
+/effect give @p minecraft:strength infinite 5
+/time set night
+/mobai wave stop
+/time set day
+/time set night
+/difficulty peaceful
+/difficulty normal
+/mobai wave series 4 5
+/difficulty peaceful
+/mobai wave start 1
+/difficulty normal
+/mobai wave start 1
+/difficulty peaceful
+/difficulty normal
+/mobai wave start 1
+/scoreboard objectives list
+/scoreboard objectives add Money dummy
+/scoreboard objectives setdisplay sidebar
+/scoreboard objectives setdisplay sidebar Money

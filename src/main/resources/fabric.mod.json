@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "mobai",
+  "version": "${version}",
+  "name": "MobAI - Advanced Mob Intelligence",
+  "description": "Mobs avanzados con IA, oleadas JSON, kamikazes, mini-zombies y sistema dia/noche.",
+  "authors": [
+    "elthisboy"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/mobai/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.elthisboy.mobai.MobAi"
+    ],
+    "client": [
+      "com.elthisboy.mobai.MobAiClient"
+    ]
+  },
+  "mixins": [
+    "mobai.mixins.json",
+    {
+      "config": "mobai.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "accessWidener": "mobai.accesswidener"
+}

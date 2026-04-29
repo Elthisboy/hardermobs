@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.elthisboy.mobai.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ZombieAIMixin",
+		"SkeletonAIMixin",
+		"MobSpawnAttributeMixin",
+		"KamikazeZombieMixin",
+		"SpecialZombiesMixin",
+		"DayNightWaveMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
