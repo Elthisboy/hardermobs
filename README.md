@@ -3,7 +3,7 @@
 ## Project Identity
 - **Name:** MobAI - Advanced Mob Intelligence
 - **Mod ID:** `mobai`
-- **Version:** `${version}` (Resolved at build time)
+- **Version:** `1.1.3` (Resolved at build time)
 
 ## Technical Summary
 The **MobAI** mod completely overhauls the intelligence and capabilities of standard Minecraft hostile mobs. The core logic relies on heavily modifying the Entity AI Goal system, granting zombies and skeletons the ability to pathfind through obstacles by breaking blocks (respecting material tiers like wood, stone, and deepslate) or climbing over them. Furthermore, the mod introduces a robust JSON-driven `WaveManager` that coordinates massive mob invasions towards a globally defined objective coordinate. It also hooks into entity death events to process a built-in "Kill Money" reward system via vanilla scoreboards.
@@ -94,5 +94,5 @@ The mod generates its primary configuration at `config/mobai/mobai_config.json`:
 *Note: The mod also generates `config/mobai/kill_money.json` to manage specific monetary rewards for slaying different entity IDs.*
 
 ## Developer Info
-- **Author:** el_this_boy
+- **Author:** El_this_boy
 - **Platform:** Fabric 1.21.1
